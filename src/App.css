@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+  background: #282c34;
+  min-width: 100vw;
+  min-height: 100vh;
+
+  display: grid;
+  place-items: center;
+}
+
+.inbox {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.msg-box {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  border: solid 1px #998f8f;
+  padding: 0 24px;
+}
+
+.msg-container {
+  padding: 20px 0;
+}
+
+.msg {
+  text-align: left;
+  font-size: 18px;
+}
+
+.input-container {
+  padding: 12px 0;
+
+  display: flex;
+}
+
+.input-container input {
+  height: 48px;
+  flex-grow: 1;
+  padding: 0 16px;
+  font-size: 18px;
+}
+
+.input-container button {
+  width: 120px;
+  background-color: #3330E4;
+  border: none;
+  color: #FBFBFB;
+}
+
+.input-container button:hover {
+  cursor: pointer;
+  background-color: #1363DF;
+}
+
+.login-input {
+  height: 32px;
+}
+
+.login-btn {
+  height: 32px;
+}
+
+.chat-box {
+  display: flex;
+  gap: 24px;
+  width: 1200px;
+  height: 500px;
+}
+
+.online-users-container {
+  background: #d6d6d6;
+}
+
+.online-user {
+  width: 180px;
+  padding: 16px 8px;
+  color: #2a4d93;
+}
+
+.online-user:hover {
+  cursor: pointer;
+  background: #aaaaaa;
+  transition: all ease-in .2s;
+}
+
+.chat-to {
+  background: #aaaaaa;
+}
+
+.btn-logout {
+  background: #164493;
+  color: #fafafa;
+  width: 100%;
+  padding: 16px 0;
+  border: none;
+}
+
+.btn-logout:hover {
+  cursor: pointer;
+  background: #124566;
+  transition: all ease-in .2s;
+}
+
+.greeting {
+  font-size: 28px;
+  text-align: left;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #8086ce;
+}
